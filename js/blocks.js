@@ -1,15 +1,4 @@
 window.onload = function (){
-  
-
-
+  console.log("hello world")
 }
 
-class wBlock {
-  
-  constructor(name, colour, height){
-    this.name = name
-    this.colour = colour
-    this.height = height
-  }
-
-}
