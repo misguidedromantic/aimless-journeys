@@ -1,21 +1,10 @@
-let svg = {}
-let blocks = {}
+window.onload = function (){
+  
 
-window.onload = function (){setup()}
 
-function setup(){
-  addBlocks()
-  console.log(blocks)
 }
 
-function addBlocks(){
-
-  blocks.1 = new block ("Block 1", "yellow", 1)
-  
-  
-}
-
-class block {
+class wBlock {
   
   constructor(name, colour, height){
     this.name = name
